@@ -16,8 +16,9 @@
     <body>
 <h1>Hello Malagasy</h1>
 <p>Heur local {{ date('h:i:s A') }}.</p>
+
 <footer>
-    &copy; Copyright {{ date('Y') }} &middot; <a href="about-us">About Us</a>
+    &copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a>
 </footer>
     </body>
 </html>
