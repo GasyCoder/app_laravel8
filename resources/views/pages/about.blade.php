@@ -1,6 +1,6 @@
-@extends('app')
+@extends('main')
 
-@section ('title', 'About | Hello Madagascar ')
+@section ('title', 'About | ' .config('app.name'))
 
 @section('content')
 

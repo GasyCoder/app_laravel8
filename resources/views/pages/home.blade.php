@@ -1,6 +1,4 @@
-@extends('app')
-
-@section ('title', ' Hello Madagascar')
+@extends('main')
 
 @section('content')
 
