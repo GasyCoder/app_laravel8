@@ -1,12 +1,11 @@
 @extends('main')
 
-@section ('title', 'About | ' .config('app.name'))
+@section ('title', 'About |' .config('app.name'))
 
 @section('content')
 
-<h1>Who are We?</h1>
-<p>Heur local {{ date('h:i:s A') }}.</p>
-<p>Create with &hearts; by GasyCoder</p>
-<p>Aller retour à l'accueil <a href="/">ici</a> </p>
+<img src="{{ asset('/img/ref.png')}}" alt="Gasy Coder">
+
+<p>Create with <span class="text-pink-500"> &hearts;</span> by GasyCoder</p>
 
 @stop
