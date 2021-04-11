@@ -2,11 +2,6 @@
 @section ('title', 'Contact Us |' .config('app.name'))
 @section('content')
 <h1>Contact Us</h1>
-<form>
-	<label>Name </label>
-	<input type="text" name="" class="form-control"><br>
-	<label>Messages </label>
-	<textarea rows="5"></textarea>
-	<button class="" type="submit">Send</button>
-</form>
+
+<a href="https://www.gasycoder.com/#contact" target="_blank"><img src="{{ asset('/img/contact.jpg')}}" class="w-30 md:w-50 lg:w-70 rounded shadow-md"></a> 
 @stop
